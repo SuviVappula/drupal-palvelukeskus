@@ -11,12 +11,12 @@
         "cweagans/composer-patches": "^1.6.7",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drupal/hdbt": "^2.0",
-        "drupal/hdbt_admin": "^1.0",
-        "drupal/helfi_api_base": "^2.1",
+        "drupal/hdbt": "2.3.22",
+        "drupal/hdbt_admin": "1.6.2",
+        "drupal/helfi_api_base": "2.2.1",
         "drupal/helfi_azure_fs": "^1.0",
         "drupal/helfi_drupal_tools": "dev-main",
-        "drupal/helfi_platform_config": "^2.0",
+        "drupal/helfi_platform_config": "2.8.0",
         "drush/drush": "^10.4"
     },
     "require-dev": {
