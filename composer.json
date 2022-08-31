@@ -11,6 +11,7 @@
         "cweagans/composer-patches": "^1.6.7",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
+        "drupal/eu_cookie_compliance": "1.19",
         "drupal/hdbt": "2.3.22",
         "drupal/hdbt_admin": "1.6.2",
         "drupal/helfi_api_base": "2.2.1",
