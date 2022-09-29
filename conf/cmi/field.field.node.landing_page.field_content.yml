@@ -44,6 +44,8 @@ settings:
       popular_services: popular_services
       target_group_links: target_group_links
       event_list: event_list
+      service_list: service_list
+      unit_search: unit_search
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -106,6 +108,9 @@ settings:
       remote_video:
         weight: 27
         enabled: true
+      service_list:
+        weight: 36
+        enabled: true
       target_group_link_item:
         weight: 45
         enabled: false
@@ -115,4 +120,7 @@ settings:
       text:
         weight: -15
         enabled: false
+      unit_search:
+        weight: 28
+        enabled: true
 field_type: entity_reference_revisions

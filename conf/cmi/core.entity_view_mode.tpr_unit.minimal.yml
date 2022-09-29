@@ -1,0 +1,12 @@
+uuid: 7a32ecb3-374b-4ce2-b6ab-94c66fe58a5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_tpr
+_core:
+  default_config_hash: QxDZ3nNixknhXrBxU6rSC1M5rvm5PeKB1Pj9ildFp-Q
+id: tpr_unit.minimal
+label: Minimal
+targetEntityType: tpr_unit
+cache: true
