@@ -17,9 +17,8 @@
         "drupal/helfi_api_base": "2.3.1",
         "drupal/helfi_azure_fs": "^1.0",
         "drupal/helfi_drupal_tools": "dev-main",
-        "drupal/helfi_platform_config": "2.12.2",
+        "drupal/helfi_platform_config": "2.12.3",
         "drupal/helfi_tunnistamo": "2.0.7",
-        "drupal/views_bulk_edit": "2.6",
         "drush/drush": "^10.4"
     },
     "require-dev": {
