@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - helfi_tpr
-_core:
-  default_config_hash: '-LHblUOCrUBssR5jBLYJjfa-POq2CNjPnDM7RquvLjE'
 id: tpr_service_unpublish_action
 label: 'Unpublish service'
 type: tpr_service

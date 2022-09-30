@@ -10,8 +10,6 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
-_core:
-  default_config_hash: f4HSvb3zHBmKOsekK-evSR4tS-5hIlourh70neIjwMg
 id: tpr_errand_service.tpr_errand_service
 target_entity_type_id: tpr_errand_service
 target_bundle: tpr_errand_service

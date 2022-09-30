@@ -10,8 +10,6 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
-_core:
-  default_config_hash: dQhmyT07oi9pKu4BFMWDmzx6zsTfWoTO-Y8GzSKDQGo
 id: tpr_service.tpr_service
 target_entity_type_id: tpr_service
 target_bundle: tpr_service

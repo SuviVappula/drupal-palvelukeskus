@@ -10,8 +10,6 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
-_core:
-  default_config_hash: HrTHBmXBQNW3ZbVkmkEDTG639Vpq0bWrbcFLrqEyhns
 id: tpr_unit.tpr_unit
 target_entity_type_id: tpr_unit
 target_bundle: tpr_unit

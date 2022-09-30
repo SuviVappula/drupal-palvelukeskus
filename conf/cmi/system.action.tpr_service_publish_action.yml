@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - helfi_tpr
-_core:
-  default_config_hash: sbUqQ6ck9VQYsc2TNQfpAmWHLwBWG-mhjWTgfB691No
 id: tpr_service_publish_action
 label: 'Publish service'
 type: tpr_service
