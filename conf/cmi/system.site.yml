@@ -2,13 +2,13 @@ _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
 uuid: 360823e2-45fe-4a7a-994e-7d891be42cd6
-name: Palvelukeskus
+name: 'Palvelukeskus Helsinki'
 mail: drupal@hel.fi
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /node/2
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
