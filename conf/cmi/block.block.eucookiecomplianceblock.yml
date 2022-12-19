@@ -28,4 +28,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /cookie-information-and-settings
+    pages: "/cookie-information-and-settings\r\n/evasteasetukset\r\n/cookie-installningar"
