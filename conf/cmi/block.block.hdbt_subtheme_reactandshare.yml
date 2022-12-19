@@ -1,0 +1,31 @@
+uuid: a6c2423d-c0b2-45ce-b9a8-533524697408
+langcode: en
+status: false
+dependencies:
+  module:
+    - helfi_platform_config
+    - node
+  theme:
+    - hdbt_subtheme
+_core:
+  default_config_hash: NGwdfNLrACjqgqO8nuIYG7P4pXxSCQ51eykE4-xME6M
+id: hdbt_subtheme_reactandshare
+theme: hdbt_subtheme
+region: after_content
+weight: -7
+provider: null
+plugin: react_and_share
+settings:
+  id: react_and_share
+  label: 'React and Share'
+  label_display: '0'
+  provider: helfi_platform_config
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      announcement: announcement
+      news_item: news_item

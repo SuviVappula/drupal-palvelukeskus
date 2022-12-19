@@ -1,0 +1,20 @@
+uuid: 4aa8aa8b-4285-4c48-8d44-e19068335c97
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hdbt_subtheme
+_core:
+  default_config_hash: cWAyHuLWbIx_Tsd04YPaUUGBOdvtYeKIjFXBXJhmi2w
+id: hdbt_subtheme_page_title
+theme: hdbt_subtheme
+region: content
+weight: -12
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Sivun otsikko'
+  label_display: '0'
+  provider: core
+visibility: {  }
