@@ -2,8 +2,8 @@ _core:
   default_config_hash: 3ooO-bLkru7Jl91Kb8hO7pD1divveu98PTIZQiCV3pQ
 langcode: en
 site_settings:
-  theme_color: coat-of-arms
-  default_icon: home-smoke
-  koro: basic
+  default_icon: group
+  theme_color: suomenlinna
+  koro: wave
 footer_settings:
   footer_color: dark
