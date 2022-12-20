@@ -1,0 +1,8 @@
+langcode: en
+front_page_title: 'Palvelukeskus Helsinki'
+asset_path: palvelukeskus-assets
+prefixes:
+  en: palvelukeskus
+  fi: palvelukeskus
+  sv: palvelukeskus
+  ru: palvelukeskus
