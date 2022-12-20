@@ -147,7 +147,7 @@ else
 endif
 
 PHONY += drush-sync
-drush-sync: drush-sync-db drush-sync-files ## Sync database and files
+drush-sync: drush-sync-db #drush-sync-files ## Sync database and files
 
 PHONY += drush-sync-db
 drush-sync-db: ## Sync database
