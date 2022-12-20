@@ -18,6 +18,7 @@
         "drupal/helfi_azure_fs": "^1.0",
         "drupal/helfi_drupal_tools": "dev-main",
         "drupal/helfi_platform_config": "2.16.0",
+        "drupal/helfi_proxy": "^2.0",
         "drupal/helfi_tpr": "2.1.2",
         "drupal/helfi_tunnistamo": "2.0.7",
         "drush/drush": "^10.4"
