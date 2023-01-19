@@ -1,6 +1,6 @@
 uuid: 5396d02c-479b-4b0d-809a-f80a057ccb62
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.branding-navigation
