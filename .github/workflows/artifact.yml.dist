@@ -14,11 +14,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/city-of-helsinki/drupal-php-docker:8.0-alpine
+      image: ghcr.io/city-of-helsinki/drupal-php-docker:8.1-alpine
 
     services:
       db:
-        image: druidfi/db:mysql5.7-drupal
+        image: mariadb
+        env:
+          MYSQL_USER: drupal
+          MYSQL_PASSWORD: drupal
+          MYSQL_DATABASE: drupal
+          MYSQL_ROOT_PASSWORD: drupal
         ports:
           - 3306:3306
 
