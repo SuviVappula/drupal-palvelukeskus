@@ -21,7 +21,7 @@ display:
         node_bulk_form:
           action_title: Åtgärd
         title:
-          label: Titel
+          label: Title
           separator: ', '
         type:
           label: Innehållstyp
@@ -46,7 +46,7 @@ display:
       filters:
         title:
           expose:
-            label: Titel
+            label: Title
         type:
           expose:
             label: Innehållstyp
