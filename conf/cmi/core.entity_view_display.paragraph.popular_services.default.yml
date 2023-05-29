@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.popular_services.field_popular_services_title
     - field.field.paragraph.popular_services.field_service_items
     - paragraphs.paragraphs_type.popular_services
+    - field.field.paragraph.popular_services.field_popular_services_title
   module:
     - entity_reference_revisions
 _core:
@@ -15,6 +15,14 @@ targetEntityType: paragraph
 bundle: popular_services
 mode: default
 content:
+  field_popular_services_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
   field_service_items:
     type: entity_reference_revisions_entity_view
     label: hidden
@@ -24,14 +32,5 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_popular_services_title:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 0
-    region: content
 hidden:
-  field_popular_services_title: true
   search_api_excerpt: true
