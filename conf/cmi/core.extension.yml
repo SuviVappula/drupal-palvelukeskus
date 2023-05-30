@@ -43,6 +43,7 @@ module:
   helfi_base_content: 0
   helfi_ckeditor: 0
   helfi_eu_cookie_compliance: 0
+  helfi_global_announcement: 0
   helfi_image_styles: 0
   helfi_media: 0
   helfi_media_chart: 0
@@ -104,7 +105,6 @@ module:
   paragraphs_library: 0
   path: 0
   path_alias: 0
-  publication_date: 0
   purge: 0
   purge_drush: 0
   purge_processor_cron: 0
@@ -140,6 +140,7 @@ module:
   content_translation: 10
   views: 10
   paragraphs: 11
+  publication_date: 99
   minimal: 1000
   eu_cookie_compliance: 1001
 theme:
