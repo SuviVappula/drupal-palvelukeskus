@@ -18,7 +18,6 @@ permissions:
   - 'access toolbar'
   - 'view any unpublished announcement content'
   - 'view any unpublished landing_page content'
-  - 'view any unpublished news_item content'
   - 'view any unpublished page content'
   - 'view own unpublished content'
   - 'view unpublished paragraphs'
