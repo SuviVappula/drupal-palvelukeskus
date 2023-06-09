@@ -7,7 +7,7 @@ dependencies:
     - helfi_api_base
     - linkit
 _core:
-  default_config_hash: 6Mnys3fZa4E9hBevfCJqL49NBKWIijbh2ubAzUeCvTk
+  default_config_hash: nhRyMD2DLIUZvFqqCGT5FZbfF9HUbPbm_B7Uz8-6E_E
 name: HTML
 format: full_html
 weight: 0
