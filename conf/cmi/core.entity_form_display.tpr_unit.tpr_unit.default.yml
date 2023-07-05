@@ -8,14 +8,15 @@ dependencies:
     - field.field.tpr_unit.tpr_unit.field_metatags
     - field.field.tpr_unit.tpr_unit.field_unit_type
   module:
-    - hdbt_admin_editorial
+    - hdbt_admin_tools
     - helfi_tpr
     - media_library
     - metatag
     - paragraphs
+    - path
     - readonly_field_widget
 _core:
-  default_config_hash: g-ZdiLH0rHr8Mv6vni5A3v5v2UQGRdwiwPxs88WA93E
+  default_config_hash: cotjiL17Qafj5pirtPax237aflvFs_-3pKHSP6wblrg
 id: tpr_unit.tpr_unit.default
 targetEntityType: tpr_unit
 bundle: tpr_unit
@@ -28,7 +29,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   accessibility_phone:
@@ -38,7 +39,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   accessibility_www:
@@ -48,7 +49,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   address:
@@ -58,7 +59,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   address_postal:
@@ -68,7 +69,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   call_charge_info:
@@ -78,7 +79,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   description:
@@ -88,7 +89,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   email:
@@ -98,7 +99,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   field_content:
@@ -146,6 +147,16 @@ content:
     settings:
       sidebar: false
     third_party_settings: {  }
+  field_unit_type:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   hide_sidebar_navigation:
     type: boolean_checkbox
     weight: 29
@@ -167,7 +178,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   longitude:
@@ -177,7 +188,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   name:
@@ -187,7 +198,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   name_override:
@@ -211,7 +222,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   picture_url:
@@ -221,7 +232,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   picture_url_override:
@@ -233,7 +244,7 @@ content:
     third_party_settings: {  }
   provided_languages:
     type: readonly_field_widget
-    weight: 29
+    weight: 30
     region: content
     settings:
       label: above
@@ -248,7 +259,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   services:
@@ -258,7 +269,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   show_www:
@@ -268,6 +279,11 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   streetview_entrance_url:
     type: readonly_field_widget
     weight: 19
@@ -275,7 +291,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   translation:
@@ -290,12 +306,11 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
 hidden:
   created: true
-  field_unit_type: true
   hide_description: true
-  hide_sidebar_navigation: true
+  ontologyword_ids: true
   show_www: true
