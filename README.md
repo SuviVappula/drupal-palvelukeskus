@@ -35,10 +35,6 @@ Create site based on database export:
 $ make fresh
 ``
 
-DB syncing from server is disabled for now, uncomment line 45 at `tools/make/project/install.mk` to enable.
-
-NOTE: Change these according of the state of your project.
-
 ## Login to Drupal container
 
 This will log you inside the app container:
