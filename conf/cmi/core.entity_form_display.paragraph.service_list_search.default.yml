@@ -1,4 +1,4 @@
-uuid: null
+uuid: a132e1c4-760d-488b-ad14-b60a3b2a6755
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
   module:
     - select2
     - text
+_core:
+  default_config_hash: ogViA6v_uJJcVnEC4WODDNOEoa7kRMpTgOVsUl_JD-g
 id: paragraph.service_list_search.default
 targetEntityType: paragraph
 bundle: service_list_search

@@ -8,13 +8,14 @@ dependencies:
     - field.field.tpr_service.tpr_service.field_metatags
     - field.field.tpr_service.tpr_service.field_sidebar_content
   module:
-    - hdbt_admin_editorial
+    - hdbt_admin_tools
     - helfi_tpr
     - metatag
     - paragraphs
+    - path
     - readonly_field_widget
 _core:
-  default_config_hash: _80FoYun8d_HfkuELrnFk_kcljgadkcxO3RgkbMfZMQ
+  default_config_hash: fBGDQ46DbT3UoCm-GrCSgq6Fd6pARcmF3BNBKxO-qaE
 id: tpr_service.tpr_service.default
 targetEntityType: tpr_service
 bundle: tpr_service
@@ -27,7 +28,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   errand_services:
@@ -37,7 +38,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   field_content:
@@ -104,6 +105,16 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
+  has_unit:
+    type: readonly_field_widget
+    weight: 27
+    region: content
+    settings:
+      label: above
+      formatter_type: null
+      formatter_settings: {  }
+      show_description: false
+    third_party_settings: {  }
   hide_sidebar_navigation:
     type: boolean_checkbox
     weight: 21
@@ -125,7 +136,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   name:
@@ -135,7 +146,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   name_override:
@@ -146,9 +157,34 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  name_synonyms:
+    type: readonly_field_widget
+    weight: 26
+    region: content
+    settings:
+      label: above
+      formatter_type: null
+      formatter_settings: {  }
+      show_description: false
+    third_party_settings: {  }
   path:
     type: path
     weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  service_id:
+    type: readonly_field_widget
+    weight: 28
+    region: content
+    settings:
+      label: above
+      formatter_type: null
+      formatter_settings: {  }
+      show_description: false
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -174,4 +210,3 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  hide_sidebar_navigation: true

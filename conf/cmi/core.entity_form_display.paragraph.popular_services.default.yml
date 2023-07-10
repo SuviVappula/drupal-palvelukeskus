@@ -9,19 +9,27 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: 3KlUynRcTXaWin6s8Z8jN5WolwwwAKPgOuxFMbuU7zg
+  default_config_hash: p92mQfVABLdoDyLyijLsf5Eoop2UcHixAVk_QYF6PJc
 id: paragraph.popular_services.default
 targetEntityType: paragraph
 bundle: popular_services
 mode: default
 content:
+  field_popular_services_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_service_items:
     type: paragraphs
     weight: 1
     region: content
     settings:
-      title: Lohko
-      title_plural: Lohkot
+      title: Paragraph
+      title_plural: Paragraphs
       edit_mode: open
       closed_mode: summary
       autocollapse: none
@@ -33,15 +41,6 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
-  field_popular_services_title:
-    type: string_textfield
-    weight: 0
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
 hidden:
   created: true
-  field_popular_services_title: true
   status: true

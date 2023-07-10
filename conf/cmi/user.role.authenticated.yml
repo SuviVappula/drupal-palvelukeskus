@@ -7,6 +7,7 @@ dependencies:
     - helfi_api_base
     - helfi_tpr
     - media
+    - paragraphs
     - system
     - toolbar
 _core:
@@ -24,3 +25,4 @@ permissions:
   - 'view tpr_ontology_word_details'
   - 'view tpr_service'
   - 'view tpr_unit'
+  - 'view unpublished paragraphs'
