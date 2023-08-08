@@ -27,4 +27,3 @@ visibility:
       node: '@node.node_route_context:node'
     bundles:
       announcement: announcement
-      news_item: news_item

@@ -7,6 +7,8 @@ dependencies:
   module:
     - helfi_tpr
     - user
+_core:
+  default_config_hash: p2-eFByxEufDKbwg2OEwg8Lnve4kABW3HhK0ZmNrCyg
 id: unit_services
 label: 'Unit services'
 module: views
@@ -320,8 +322,7 @@ display:
     position: 1
     display_options:
       rendering_language: '***LANGUAGE_entity_translation***'
-      display_extenders:
-        metatag_display_extender: {  }
+      display_extenders: {  }
     cache_metadata:
       max-age: -1
       contexts:
